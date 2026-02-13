@@ -5,18 +5,18 @@ This repo is dedicated to python classes utilizing i2c and spi communication in 
 ## Usage:
 
 1) Clone repo in home directory
-2) Use `python ~/PI-OBC/obc_controller.py init` to initalize hardware.
+2) Use `python ~/PI-OBC/obc_controller.py init` to initialize hardware.
 3) Use the command `crontab -e` and append `* * * * * python ~/PI-OBC/obc_controller.py telemetry >> ~/logs.txt` to the file. This will have telemetry get collected each minute.
 4) Enjoy!
 
 
 
-## Currently in developement:
+## Currently in Development:
 
 - MCP79410 (RTC)
 - MCP9808 (Temperature Sensor)
 - MCP3008 (ADC)
 
-## Upcomming:
+## Upcoming:
 
 - BNO055 (Orientation Sensor)
